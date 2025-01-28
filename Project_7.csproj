@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFB037C5-E05E-4F57-9772-3D4F5AC71E84}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_7</RootNamespace>
+    <AssemblyName>Project_7</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Criminology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Criminology.Designer.cs">
+      <DependentUpon>Criminology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Father.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Father.Designer.cs">
+      <DependentUpon>Father.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Highschool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Highschool.Designer.cs">
+      <DependentUpon>Highschool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighschoolLifeMore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighschoolLifeMore.Designer.cs">
+      <DependentUpon>HighschoolLifeMore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LastPartLoveStory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LastPartLoveStory.Designer.cs">
+      <DependentUpon>LastPartLoveStory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoveLife.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoveLife.Designer.cs">
+      <DependentUpon>LoveLife.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoveLifeMore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoveLifeMore.Designer.cs">
+      <DependentUpon>LoveLifeMore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoreCrim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoreCrim.Designer.cs">
+      <DependentUpon>MoreCrim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Criminology.resx">
+      <DependentUpon>Criminology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Father.resx">
+      <DependentUpon>Father.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Highschool.resx">
+      <DependentUpon>Highschool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighschoolLifeMore.resx">
+      <DependentUpon>HighschoolLifeMore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LastPartLoveStory.resx">
+      <DependentUpon>LastPartLoveStory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoveLife.resx">
+      <DependentUpon>LoveLife.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoveLifeMore.resx">
+      <DependentUpon>LoveLifeMore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoreCrim.resx">
+      <DependentUpon>MoreCrim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

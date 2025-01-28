@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Noong high school, parang ang tanging mundo ko lang ay ang laro—Dota, Rules of Survival, at mga
+kalokohan kasama ang mga kaibigan ko. Lagi kami tatlo, apat—"F4" kami. Walang araw na hindi kami
+magkasama, palaging may bagong kalokohan, palaging may mga ngiti at tawa. Pero sa likod ng lahat
+ng kaligayahan, hindi ko na rin alam kung paano magsimula.
+Minsan, natatawa kami sa mga moments na hindi namin alam kung anong klaseng kalokohan ang
+ginagawa namin—mga ganun ka-simple, tulad ng pagpunta sa ilog, pagkakaroon ng mga walang
+saysay na picture moments, o pagkakasama kami sa mga maliliit na bagay na hindi namin alam na
+magiging malalaking alaala. May mga larawan kami, mga moment na tumagal sa aming mga puso,
+ngunit sa mga simple at maliliit na hakbang na iyon, parang doon namin natutunan ang halaga ng
+tunay na pagkakaibigan. Dumating din sa buhay ko yung mga masalimuot na sandali. Ang torpe ko
+na crush noong high school, yung mga nararamdaman ko na hindi ko alam kung paano haharapin.
+Pero habang tumatagal, narealize ko na ang tunay na pagmamahal ay hindi palaging para sa isang tao
+lang—minsan, ang pagmamahal ay para sa mga tao na hindi mo kailangang ipaglaban, kasi sila na ang
+tanging constant sa buhay mo. Sila yung mga kaibigan mo na laging nariyan, hindi naghahanap ng kapalit,
+at masayang makita kang masaya. Si Khobe, at ang iba pa naming tropa, hindi ko na kailangang ipaglaban
+sa iba—sila yung pamilya ko, yung mga hindi matitinag. Ngunit sa kabila ng lahat ng kaligayahan, may mga
+panahon ding dumaan na nagdala ng lungkot. Mga panahon na nadarama mong parang ang lahat ay hindi
+na magiging pareho. Na hindi na uubra ang dati mong mga kalokohan, at may mga bagay na hindi mo na
+maibabalik. Tumanggap ako na may mga bagay na kahit anong gawin mo, hindi mo kayang baguhin. Hindi
+ko na kayang ibalik ang dating pagkatao ko—yung carefree, walang pakialam sa mundo, at hindi marunong
+makipagsapalaran sa puso. Pero natutunan kong yakapin yun, kasi yun ang nagbigay ng hugot sa pagkakaibigan
+namin. Sila ang nagbigay sa akin ng lakas na tanggapin kung anong nangyari. Hindi lahat ng kwento ay may happy
+ending. Ngunit minsan, sa kabila ng mga bagay na nagbago, doon pa rin natin natutunan na ang mga alaala—ang tawa,
+ang mga game nights, ang mga kwento sa ilalim ng buwan, at ang mga lihim—ay hindi kailanman mawawala sa ating
+mga puso. Kaya, habang ang F4 ko ay matagal nang naghiwahiwalay sa iba’t ibang landas, alam ko na hindi matatapos
+ang kwento namin. Kasi, ang tunay na pagkakaibigan ay hindi natatapos sa mga simpleng kalokohan—ito ay umaabot sa
+mga taon, sa mga buhay, at sa bawat pakiramdam na binuo namin bilang isang pamilya. Kahit gaano man kami kalayo
+ngayon, alam ko na sa bawat hakbang na tatahakin ko, may mga alaala kami na laging nariyan—at sa bawat sulok ng
+buhay ko, sila ang mga naging gabay ko sa bawat pagkatalo at tagumpay.</value>
+  </data>
+</root>
